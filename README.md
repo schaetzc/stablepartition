@@ -1,5 +1,6 @@
 This is an (unfinished) implementation of the paper [Stable Minimum Space Partitioning in Linear Time](http://hjemmesider.diku.dk/~jyrki/Paper/KP1992bJ.pdf) by Yrki Katajainen and Tomi Pasanen. Their algorithm stably¹ partitions² an array of length *n* in *O(n)* time and *O(1)* extra space.
-<sub>² to partition = Sort an array by a predicate. For instance `3, 6, 4, 1, 5` partitioned by the predicate `isEven` is `3, 1, 5;` `6, 4`.
+
+<sub>² to partition = Sort an array by a predicate. For instance `3, 6, 4, 1, 5` partitioned by the predicate `isEven` is `3, 1, 5;` `6, 4`.  
 ¹ stable = Elements with the same result from the predicate appear in the same order after sorting.</sub>
 
 Apart from the actual implementation this github repository also serves as a place to discuss the theoretical details of this algorithm. Have a look at the [issues tagged as *theory*](https://github.com/schaetzc/Stable-Partition/labels/theory). 

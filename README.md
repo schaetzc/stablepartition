@@ -7,7 +7,7 @@ Apart from the actual implementation this github repository also serves as a pla
 
 ### Participate
 
-You want to help completing this implementation? Great!
+You want to help complete this implementation? Great!
 First read the papers:
 
 - [Stable Minimum Space Partitioning in Linear Time](http://hjemmesider.diku.dk/~jyrki/Paper/KP1992bJ.pdf) by Yrki Katajainen and Tomi Pasanen
